@@ -1,0 +1,509 @@
+body{
+    background-color: #f0d8d8;
+  }
+  .btn{
+    text-decoration: none;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    cursor:pointer;
+    background-color: #97e1f8;
+    border-radius: 20px;
+    color: #000;
+    width: 100px;
+    height: 34px;
+    display: inline-block;
+    text-align: center;
+    position: relative;
+    left: 550px;
+    bottom: 86px;
+    padding: 6px;
+    margin: 5px 0PX;
+  }
+  .btn:hover{
+    color:rgb(10, 10, 9);
+    background-color:rgb(87, 162, 247);
+    border: 2px transparent rgb(243, 147, 147);
+  }
+  .visionline{
+    color: #f485e5;
+    margin: 0px 0px;
+    padding: 0px;
+  }
+  .scrolling-text-container {
+      width: 100%;
+      overflow: hidden;
+      position: relative;
+    }
+    
+    .scrolling-text {
+      white-space: nowrap;
+      font-size: 15px;
+      color: #02c0fa;
+      animation: scroll 10s linear infinite;
+    }
+    
+    @keyframes scroll {
+      0% {
+        transform: translateX(100%);
+      }
+      100% {
+        transform: translateX(-100%);
+      }
+    }
+    .search{
+      float: right;
+      display:inline-flex;
+      position: relative;
+      bottom: 18px;
+      right:20px;
+      color: white;
+      padding: 12px 75px;
+  }
+  .text-pop-up-top {
+    margin: 0px 0px;
+  -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  @-webkit-keyframes text-pop-up-top {
+  0% {
+  -webkit-transform: translateY(0);
+      transform: translateY(0);
+  -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+  text-shadow: none;
+  }
+  100% {
+  -webkit-transform: translateY(-50px);
+      transform: translateY(-50px);
+  -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+  text-shadow: 0 1px 0 #8dd7f5, 0 2px 0 #82bbf0, 0 3px 0 #8dd7f5, 0 4px 0 #8dd7f5, 0 5px 0 #8dd7f5, 0 6px 0 #8dd7f5, 0 7px 0 #8dd7f5, 0 8px 0 #8dd7f5, 0 9px 0 #8dd7f5, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+  }
+  @keyframes text-pop-up-top {
+  0% {
+  -webkit-transform: translateY(0);
+      transform: translateY(0);
+  -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+  text-shadow: none;
+  }
+  100% {
+  -webkit-transform: translateY(-50px);
+      transform: translateY(-50px);
+  -webkit-transform-origin: 50% 50%;
+      transform-origin: 50% 50%;
+  text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+  }
+  }
+  .tracking-in-expand {
+  -webkit-animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+      animation: tracking-in-expand 1.5s cubic-bezier(0.215, 0.610, 0.355, 1.000) both;
+  }
+  @-webkit-keyframes tracking-in-expand {
+  0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+  }
+  40% {
+  opacity: 0.6;
+  }
+  100% {
+  opacity: 1;
+  }
+  }
+  @keyframes tracking-in-expand {
+  0% {
+  letter-spacing: -0.5em;
+  opacity: 0;
+  }
+  40% {
+  opacity: 0.6;
+  }
+  100% {
+  opacity: 1;
+  }
+  }
+  
+  
+  
+  h1{
+  font-size: 50px;
+  position: relative;
+  top: 30px;
+  }
+  #uni{
+      height: 100vh;
+      /*background-image:  linear-gradient(115deg,rgba(1,40,40,0.9)42%,transparent 60%), url(img/marina-vitale-t809JJ6r9KA-unsplash.jpg);*/
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+      font-family: Arial, sans-serif;
+      /*box-shadow: 0 10px 20px -6px black;*/
+  }
+  #temp{
+      width: 24%;
+      height:251px;
+      background-image: url(https://media.istockphoto.com/id/1436148451/photo/smiling-female-doctor-with-digital-tablet-standing-at-isolated-grey-background.webp?b=1&s=612x612&w=0&k=20&c=mx-Kl8nAOTJrsKe3AGVkUdGVO4cfZLuywvelXKuInXI=);
+      background-size: contain;
+      background-repeat: no-repeat;
+      border-radius: 50%;
+      position: relative;
+      bottom: 50px;
+      left: 700px;
+      
+  }
+  header {
+      /*background-color: #0099cc;*/
+      color: rgb(0, 131, 100);
+      text-align: center;
+      padding: 10px;
+  }
+  nav {
+      /*background-color: #333;*/
+      color: rgb(232, 60, 60);
+      text-align: center;
+      padding: 20px;
+      
+  }
+  nav a {
+      text-decoration: none;
+      color: rgb(74, 158, 238);
+      font-size: 20PX;
+      font-weight: bolder;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 15PX 20px;
+      font-style:unset;
+  }
+  .container {
+      padding: 20px;
+  }
+  .akm{
+      border: 2px transparent rgb(250, 211, 211);
+      border-radius: 15%;
+      background-color:#447ea04f;
+      margin: -29px;
+  }
+  .akmm{
+      width: 60%;
+      float: left;
+      border: 2px transparent rgb(250, 211, 211);
+      border-radius: 15%;
+      background-color:#7dc0e7b4;
+     /* margin: -29px;*/
+      display: none;
+  }
+  .akmm ul{
+    float: left;
+    margin: 22px -49px;
+    display: none
+  }
+  .akmm li{
+    margin: 15px;
+    display: none;
+  }
+  .menu{
+    position: absolute;
+    color: #030d99;
+    left: 15px;
+    z-index: 10;
+    display: none;
+  }
+  .men{
+    position: absolute;
+    right: 70px;
+    color: #030d99;
+    z-index: 10;
+    display: none;
+  }
+  .sign{
+    height: 35px;
+    width: 35px;
+    border-radius: 50%;
+    mix-blend-mode: screen;
+    position: absolute;
+    right: 18px;
+    display: none;
+    color: #000;
+  }
+  li{
+    list-style-type: none;
+  }
+  .akm a:hover{
+      color: rgb(66, 46, 240);
+     
+  }
+  .akmm li:hover{
+    color: rgba(248, 167, 61, 0.61);
+   
+}
+  .focus-in-contract-bck {
+  -webkit-animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: focus-in-contract-bck 1s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  
+  
+  .bi{
+    margin: 0px 0px;
+    position: fixed;
+    bottom: 50px;
+    right: 100px;
+    color: rgb(2, 97, 97);
+    cursor: pointer;
+    z-index: 200;
+  }
+  input::placeholder{
+      color: rgb(65, 35, 35);
+      font-style: italic;
+  }
+  .big{
+      color: black;
+      position: relative;
+      top: 3px;
+      right: 8px;
+      
+  }
+  .search input{
+      border: 2px solid black;
+      border-radius: 10px;
+      font-size: medium;
+      padding: 10px 17px;
+      width: 200px;
+  }
+  .text-pop-up:hover{
+      -webkit-animation: text-pop-up 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+              animation: text-pop-up 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+  }
+  @-webkit-keyframes text-pop-up {
+      0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+        text-shadow: none;
+      }
+      100% {
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+        -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+        text-shadow: 0 1px 0 #f292f5, 0 2px 0 #f485e5, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+      }
+    }
+    @keyframes text-pop-up {
+      0% {
+        -webkit-transform: translateY(0);
+                transform: translateY(0);
+        -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+        text-shadow: none;
+      }
+      100% {
+        -webkit-transform: translateY(-50px);
+                transform: translateY(-50px);
+        -webkit-transform-origin: 50% 50%;
+                transform-origin: 50% 50%;
+        text-shadow: 0 1px 0 #f86bee, 0 2px 0 #fc99d4, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+      }
+    }
+    #box1,#box3,#box2 {
+      border: 4px solid rgb(108, 154, 247);
+      background-color: rgb(161, 218, 233);
+      border-radius: 20%;
+      margin: 9px 17px;
+      padding: 23px;
+      width: 350px;
+      height: 300px;
+      box-sizing: border-box;
+      display: inline-block;
+  }
+  
+  #cont{
+      margin: auto;
+      width: 1200px;
+      display: flex;
+  }
+  
+  .maindiv{
+      width: 30%;
+      height: 300px;
+      position: relative;
+      left: 70px;
+      bottom: 0px;
+      top: 30px;
+      border-radius: 25%;
+      background-image: url(https://media.istockphoto.com/id/1070605444/photo/eye-exam-ophthalmology-slit-lamp-exam-school-boy-having-his-eye-sight-checked.webp?b=1&s=170667a&w=0&k=20&c=Y96A7wNcqwMB7LQ-ib4UKhK4Dpbfw8FpxkhzUwKbQrU=);
+      background-size: 100% 100%;
+      box-shadow: 2px 2px 10px 5px purple;
+      animation: slider 12s infinite linear;
+  }
+  @keyframes slider{
+      0%{ background-image: url(https://media.istockphoto.com/id/1070605444/photo/eye-exam-ophthalmology-slit-lamp-exam-school-boy-having-his-eye-sight-checked.webp?b=1&s=170667a&w=0&k=20&c=Y96A7wNcqwMB7LQ-ib4UKhK4Dpbfw8FpxkhzUwKbQrU=);}
+      35%{background-image: url(https://media.istockphoto.com/id/498768030/photo/girl-having-fun-at-vision-test.webp?b=1&s=170667a&w=0&k=20&c=oQab2ynM1Rx0sqbX78RiN776fhKGseD43WRxBqhiHtU=);}
+      75%{background-image: url(https://media.istockphoto.com/id/1188562853/photo/tired-indian-girl-taking-off-glasses-feeling-eye-strain.webp?b=1&s=170667a&w=0&k=20&c=fAGuyzHi58_zR8IzU7vjrqnlbr9OBDaRqB5EhuMmPrQ=);}
+  }
+  .slide-in-bck-center {
+      -webkit-animation: slide-in-bck-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+              animation: slide-in-bck-center 3s cubic-bezier(0.250, 0.460, 0.450, 0.940) 1s both;
+  }
+  @-webkit-keyframes slide-in-bck-center {
+      0% {
+        -webkit-transform: translateZ(600px);
+                transform: translateZ(600px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+    @keyframes slide-in-bck-center {
+      0% {
+        -webkit-transform: translateZ(600px);
+                transform: translateZ(600px);
+        opacity: 0;
+      }
+      100% {
+        -webkit-transform: translateZ(0);
+                transform: translateZ(0);
+        opacity: 1;
+      }
+    }
+    .hidden{
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-50%);
+        transition: all 1.8s;
+    }
+    .show{
+        opacity: 1;
+        filter: blur(0);
+        transform: translateX(0%);
+    }
+
+
+    
+  @media (max-width:412px ){
+    .akmm{
+      display: block;
+    }
+    .akmm ul{
+      display: block;
+    }
+    .menu{
+      display: block;
+    }
+    .men{
+      display: block;
+    }
+    .sign{
+      display: block;
+    }
+    .akmm li{
+      display: block;
+    }
+    .btn{
+      display: none;
+    }
+    .akm{
+      display: none;
+    }
+    .bi{
+      margin: 0px 0px;
+      position: fixed;
+      bottom: 50px;
+      right: 60px;
+      color: rgb(2, 97, 97);
+      cursor: pointer;
+      z-index: 200;
+    }
+    #box1,#box3,#box2 {
+      border: 4px solid rgb(108, 154, 247);
+      background-color: rgb(161, 218, 233);
+      border-radius: 20%;
+      margin: 4px 40px;
+      padding: 23px;
+      width: 350px;
+      height: 300px;
+      box-sizing: border-box;
+      display: inline-block;
+  }
+    .text-pop-up-top {
+      /*margin: 0px 0px;*/
+      -webkit-animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+      animation: text-pop-up-top 0.5s cubic-bezier(0.250, 0.460, 0.450, 0.940) both;
+    }
+    @-webkit-keyframes text-pop-up-top {
+    0% {
+    -webkit-transform: translateY(0);
+        transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    text-shadow: none;
+    }
+    100% {
+    -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #8dd7f5, 0 2px 0 #82bbf0, 0 3px 0 #8dd7f5, 0 4px 0 #8dd7f5, 0 5px 0 #8dd7f5, 0 6px 0 #8dd7f5, 0 7px 0 #8dd7f5, 0 8px 0 #8dd7f5, 0 9px 0 #8dd7f5, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+    }
+    @keyframes text-pop-up-top {
+    0% {
+    -webkit-transform: translateY(0);
+        transform: translateY(0);
+    -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    text-shadow: none;
+    }
+    100% {
+    -webkit-transform: translateY(-50px);
+        transform: translateY(-50px);
+    -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+    text-shadow: 0 1px 0 #cccccc, 0 2px 0 #cccccc, 0 3px 0 #cccccc, 0 4px 0 #cccccc, 0 5px 0 #cccccc, 0 6px 0 #cccccc, 0 7px 0 #cccccc, 0 8px 0 #cccccc, 0 9px 0 #cccccc, 0 50px 30px rgba(0, 0, 0, 0.3);
+    }
+    }
+    .maindiv{
+      width: 80%;
+      height: 300px;
+      margin: 0 -27px;
+     /* position: relative;
+      left: 70px;
+      bottom: 0px;
+      top: 30px;*/
+      border-radius: 25%;
+      background-image: url(https://media.istockphoto.com/id/1070605444/photo/eye-exam-ophthalmology-slit-lamp-exam-school-boy-having-his-eye-sight-checked.webp?b=1&s=170667a&w=0&k=20&c=Y96A7wNcqwMB7LQ-ib4UKhK4Dpbfw8FpxkhzUwKbQrU=);
+      background-size: 100% 100%;
+      box-shadow: 2px 2px 10px 5px purple;
+      animation: slider 12s infinite linear;
+  }
+  @keyframes slider{
+      0%{ background-image: url(https://media.istockphoto.com/id/1070605444/photo/eye-exam-ophthalmology-slit-lamp-exam-school-boy-having-his-eye-sight-checked.webp?b=1&s=170667a&w=0&k=20&c=Y96A7wNcqwMB7LQ-ib4UKhK4Dpbfw8FpxkhzUwKbQrU=);}
+      35%{background-image: url(https://media.istockphoto.com/id/498768030/photo/girl-having-fun-at-vision-test.webp?b=1&s=170667a&w=0&k=20&c=oQab2ynM1Rx0sqbX78RiN776fhKGseD43WRxBqhiHtU=);}
+      75%{background-image: url(https://media.istockphoto.com/id/1188562853/photo/tired-indian-girl-taking-off-glasses-feeling-eye-strain.webp?b=1&s=170667a&w=0&k=20&c=fAGuyzHi58_zR8IzU7vjrqnlbr9OBDaRqB5EhuMmPrQ=);}
+  }
+  #cont{
+    margin: 303px -11px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+}
+#temp{
+  width: 271px;
+  height:180px;
+  background-image: url(https://media.istockphoto.com/id/1436148451/photo/smiling-female-doctor-with-digital-tablet-standing-at-isolated-grey-background.webp?b=1&s=612x612&w=0&k=20&c=mx-Kl8nAOTJrsKe3AGVkUdGVO4cfZLuywvelXKuInXI=);
+  background-size: contain;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+  position: absolute;
+  top: 92px;
+  left: 57px;
+
+  
+}
+  
+  }
+    
