@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Help Zone Chatbox</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+  }
+  .chat-container {
+    max-width: 400px;
+    margin: 20px auto;
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .chat-header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+  }
+  .chat-body {
+    padding: 10px;
+    overflow-y: scroll;
+    max-height: 300px;
+  }
+  .message {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+  }
+  .user-message {
+    background-color: #e5e5ea;
+  }
+  .bot-message {
+    background-color: #b8e3ff;
+  }
+  .chat-input {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ccc;
+  }
+  .input-field {
+    flex: 1;
+    padding: 5px;
+    border: none;
+    border-radius: 5px;
+  }
+  .send-button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    cursor: pointer;
+  }
+</style>
+</head>
+<body>
+  <div class="chat-container">
+    <div class="chat-header">
+      Help Zone Chat
+    </div>
+    <div class="chat-body">
+      <div class="message bot-message">Hello! How can I assist you today?</div>
+    </div>
+    <div class="chat-input">
+      <input type="text" class="input-field" placeholder="Type your message...">
+      <button class="send-button">Send</button>
+    </div>
+  </div>
+</body>
+</html>
