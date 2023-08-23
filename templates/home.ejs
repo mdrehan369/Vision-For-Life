@@ -1,30 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision For Life</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="/css/header.css">
-<script src="/js/header.js"></script>
-</head>
-<body>
-    <!-- header section  -->
-    
-    <header>
-        <ul>
-            <li id="home" class="focusli"><a href="/">Home</a></li>
-            <li id="about"><a href="/about">About Us</a></li>
-            <li id="appointment"><a href="/appointment">Appointment</a></li>
-            <li id="eyeproblems"><a href="/eyeproblems">Eye Problems</a></li>
-            <li id="chatbot"><a href="/chatbot">Chat Bot</a></li>
-            <li id="ourdoctors"><a href="/ourdoctors">Our Doctors</a></li>
-        </ul>
-    </header>
 
-    
+<%- include("partials/header.ejs", {title:"Vision For Life",home:"focusli", about:"", appointments:"", chatbot:"", eyeprblms:"", ourdoctors:""}); %>
 
+Home Section
+
+<%- include("partials/footer.ejs"); %>
 </body>
 </html>

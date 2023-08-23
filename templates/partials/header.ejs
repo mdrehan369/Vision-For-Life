@@ -3,9 +3,23 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Vision For Life</title>
+    <title><%= title %></title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato&display=swap" rel="stylesheet">
+    <script src="/js/header.js"></script>
+    <link rel="stylesheet" href="/css/header.css">
 </head>
 <body>
+
+    <header>
+        <ul>
+            <li id="home" class=<%= home %>><a href="/">Home</a></li>
+            <li id="about" class=<%= about %>><a href="/about">About Us</a></li>
+            <li id="appointment" class=<%= appointments %>><a href="/appointment">Appointment</a></li>
+            <li id="eyeproblems" class=<%= eyeprblms %>><a href="/eyeproblems">Eye Problems</a></li>
+            <li id="chatbot" class=<%= chatbot %>><a href="/chatbot">Chat Bot</a></li>
+            <li id="ourdoctors" class=<%= ourdoctors %>><a href="/ourdoctors">Our Doctors</a></li>
+        </ul>
+    </header>
     
-</body>
-</html>
